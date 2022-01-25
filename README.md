@@ -33,6 +33,8 @@ Run -
 
 ```sudo apt install ffmpeg``` (necessary as discord client supports that only)
 
+  put your discord token in final3.py and now your bot is ready to play the songs for you
+
 Now run , ```python3 final3.py``` to run the discord music bot.
 
 Now sit back and enjoy the music ...
