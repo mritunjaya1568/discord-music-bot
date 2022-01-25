@@ -7,6 +7,7 @@ import asyncio
 
 # install ffmpeg also from -> sudo apt install ffmpeg
 
+token = "your_token_here"
 
 PREFIX = ['!' , '?' , '@']
 client = discord.Client()
@@ -64,7 +65,7 @@ async def on_message(message):
 		await message.channel.send(help2)
 
 
-client.run("ODkxMjY3MjIxNTU1MzgwMjQ0.YU73SA.zZBIGHU1RSCW7UZwgcx_S6iVwzo")
+client.run(token)
 
 
 
