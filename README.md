@@ -17,12 +17,13 @@ Added recommendation and loop features
 
 
 
-# For running 24/7 , Make a account on azure or your preferred choice and make a virtual machine and run the final3 python script 
+### For running 24/7 , Make a account on azure or your preferred choice and make a virtual machine and do the following steps on the vm (virtual machine).
 
-# Installation 
+## Installation 
 
 Run -
-```pip3 install -m requirements.txt```
+```pip3 install -m requirements.txt``` 
+
 ```sudo apt install ffmpeg``` (necessary as discord client supports that only)
 
 Now run , ```python3 final3.py``` to run the discord music bot.
